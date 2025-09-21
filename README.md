@@ -1,57 +1,50 @@
-JAVA - Complete DSA Programs
+# DSA and Networking Programs
 
-This repository contains Data Structures and Algorithms (DSA) implementations in Java. It includes fundamental data structures, algorithms, and practice programs, designed to help learners understand and implement key DSA concepts.
+This repository contains implementations of fundamental **Data Structures and Algorithms (DSA)** in Java, along with basic **Networking Programs**.  
+It is organized into separate folders for clarity.
 
+---
 
+## 📂 Folder Structure
 
-🌟 Features & Implementations
+### 🔹 Data Structures
+- **Array/**  
+  Implementation of basic array operations and problems.
 
-1️⃣ Arrays
+- **DLLList/**  
+  Programs related to **Doubly Linked List**.
 
-Basic and multi-dimensional arrays
+- **LinkedList/**  
+  Programs implementing **Singly Linked List**.
 
-Array operations (insertion, deletion, traversal)
+- **Matrix/**  
+  Matrix operations and related problems.
 
-Solving common array problems
+- **Queue/**  
+  Implementation of different types of queues (linear, circular, priority, etc.).
 
-2️⃣ Linked Lists
+- **Stack/**  
+  Stack implementation and stack-based problems.
 
-Singly and doubly linked lists
+- **Strings/**  
+  Programs for string manipulation and common string algorithms.
 
-Insert, delete, search, and display operations
+- **Trees/**  
+  Implementation of tree data structures (binary trees, BST, traversal methods, etc.).
 
-3️⃣ Stacks
+---
 
-Implementation using arrays and linked lists
+### 🔹 Networking Programs
+- **tcpclient.java**  
+  A simple **TCP Client** implementation.
 
-Push, pop, peek, and isEmpty operations
+- **tcpserver.java**  
+  A simple **TCP Server** implementation.
 
-Useful for expression evaluation and recursion practice
+---
 
-4️⃣ Queues
-
-Implementation using arrays and linked lists
-
-Enqueue, dequeue, peek operations
-
-Level order traversal in trees uses queue internally
-
-5️⃣ Trees
-
-Binary Tree
-
-Manual node insertion
-
-Traversals: Inorder, Preorder, Postorder, Level Order
-
-Optional hierarchy visualization
-
-Binary Search Tree (BST)
-
-Automatic insertion maintaining BST property
-
-Search and delete nodes (handles 0, 1, or 2 children)
-
-Traversals: Inorder (sorted), Preorder, Postorder, Level Order
-
-Tested in BSTMain.java
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd <repo-name>
